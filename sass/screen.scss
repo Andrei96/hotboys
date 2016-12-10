@@ -2,7 +2,6 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-
 @import "compass/reset";
 @import url('https://fonts.googleapis.com/css?family=Dekko|Fira+Sans');
 
@@ -12,8 +11,11 @@ body {
 
     section.body-title {
         clear: both;
+        margin-bottom: 50px;
 
         div.container {
+            //width: 900px;
+            //margin: 0 auto 50px auto;
 
             h1.header-name {
                 text-transform: uppercase;
@@ -22,13 +24,13 @@ body {
                 text-align: center;
                 line-height: 1em;
 
-                 > span {
-                     display: block;
+                > span {
+                    display: block;
 
-                     &.description {
-                         font-size: 48px;
-                     }
-                 }
+                    &.description {
+                        font-size: 48px;
+                    }
+                }
 
             }
 
@@ -39,24 +41,57 @@ body {
                     margin-top: 20px;
                     text-align: center;
 
-                    >  li {
+                    > li {
                         display: inline;
-                        padding: 10px;
+                        padding: 15px;
 
-                         >  a {
-                             text-decoration: none;
+                        > a {
+                            text-decoration: none;
                             font-size: 24px;
                             color: white;
 
+                            &:focus {
+                                border-bottom: 2px solid red;
+                            }
 
-                         }
+                        }
                         &:hover {
+                            transition: background-color 0.5s;
                             background-color: red;
                         }
                     }
                 }
             }
         }
+    }
+
+    section.contacts {
+        padding-bottom: 50px;
+        width: 900px;
+        margin: 0 auto;
+        overflow: hidden;
+
+       div.contacts-list {
+           clear: both;
+
+            img {
+                float: left;
+                width: 40%;
+            }
+
+           ul {
+               float: left;
+               display: inline-block;
+               line-height: 2.5em;
+               margin-left: 50px;
+
+               > li {
+                   a {
+                       text-decoration: none;
+                   }
+               }
+           }
+       }
     }
 
     #MusesRadioPlayer-HTML5-player-0 {

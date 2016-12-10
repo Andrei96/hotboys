@@ -65,6 +65,7 @@ body {
 }
 body section.body-title {
   clear: both;
+  margin-bottom: 50px;
 }
 body section.body-title div.container h1.header-name {
   text-transform: uppercase;
@@ -88,15 +89,41 @@ body section.body-title div.container h2.information ul.info-list {
 }
 body section.body-title div.container h2.information ul.info-list > li {
   display: inline;
-  padding: 10px;
+  padding: 15px;
 }
 body section.body-title div.container h2.information ul.info-list > li > a {
   text-decoration: none;
   font-size: 24px;
   color: white;
 }
+body section.body-title div.container h2.information ul.info-list > li > a:focus {
+  border-bottom: 2px solid red;
+}
 body section.body-title div.container h2.information ul.info-list > li:hover {
+  transition: background-color 0.5s;
   background-color: red;
+}
+body section.contacts {
+  padding-bottom: 50px;
+  width: 900px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+body section.contacts div.contacts-list {
+  clear: both;
+}
+body section.contacts div.contacts-list img {
+  float: left;
+  width: 40%;
+}
+body section.contacts div.contacts-list ul {
+  float: left;
+  display: inline-block;
+  line-height: 2.5em;
+  margin-left: 50px;
+}
+body section.contacts div.contacts-list ul > li a {
+  text-decoration: none;
 }
 body #MusesRadioPlayer-HTML5-player-0 {
   margin: 0 auto 70px auto;
