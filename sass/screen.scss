@@ -4,10 +4,11 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 @import "compass/reset";
-
+@import url('https://fonts.googleapis.com/css?family=Dekko|Fira+Sans');
 
 body {
     background-color: orange;
+    font-family: 'Fira Sans', sans-serif;
 
     section.body-title {
         clear: both;
@@ -29,6 +30,31 @@ body {
                      }
                  }
 
+            }
+
+            h2.information {
+                border-top: 2px dashed black;
+
+                ul.info-list {
+                    margin-top: 20px;
+                    text-align: center;
+
+                    >  li {
+                        display: inline;
+                        padding: 10px;
+
+                         >  a {
+                             text-decoration: none;
+                            font-size: 24px;
+                            color: white;
+
+
+                         }
+                        &:hover {
+                            background-color: red;
+                        }
+                    }
+                }
             }
         }
     }
