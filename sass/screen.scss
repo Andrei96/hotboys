@@ -1,0 +1,43 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+
+
+body {
+    background-color: orange;
+
+    section.body-title {
+        clear: both;
+
+        div.container {
+
+            h1.header-name {
+                text-transform: uppercase;
+                color: white;
+                font-size: 72px;
+                text-align: center;
+                line-height: 1em;
+
+                 > span {
+                     display: block;
+
+                     &.description {
+                         font-size: 48px;
+                     }
+                 }
+
+            }
+        }
+    }
+
+    #MusesRadioPlayer-HTML5-player-0 {
+        margin: 0 auto 70px auto;
+    }
+}
+
+
+
+
