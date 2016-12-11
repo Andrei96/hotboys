@@ -66,6 +66,7 @@ body {
     }
 
     section.contacts {
+        display: none;
         padding-bottom: 50px;
         width: 900px;
         margin: 0 auto;
@@ -92,6 +93,20 @@ body {
                }
            }
        }
+    }
+
+    section.about-us,
+    section.app {
+        display: none;
+        width: 900px;
+        margin: 0 auto;
+        text-align: center;
+
+        p, span {
+            color: #fff;
+            line-height: 1.5em;
+            font-size: 24px;
+        }
     }
 
     #MusesRadioPlayer-HTML5-player-0 {
