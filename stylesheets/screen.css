@@ -63,6 +63,9 @@ body {
   background-color: orange;
   font-family: 'Fira Sans', sans-serif;
 }
+body ::selection {
+  color: red;
+}
 body section.body-title {
   clear: both;
   margin-bottom: 50px;
