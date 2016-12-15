@@ -143,6 +143,9 @@ body section.app span {
   line-height: 1.5em;
   font-size: 24px;
 }
+body div#disqus_thread {
+  background-color: #555;
+}
 body #MusesRadioPlayer-HTML5-player-0 {
   margin: 0 auto 70px auto;
 }
