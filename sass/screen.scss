@@ -11,6 +11,17 @@ body {
     ::selection {
         color: red;
     }
+
+    div.online-chat {
+        text-align: center;
+
+        span {
+            color: #fff;
+            font-weight: bold;
+            font-size: 24px;
+        }
+    }
+
     section.body-title {
         clear: both;
         margin-bottom: 50px;
