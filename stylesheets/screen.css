@@ -74,6 +74,10 @@ body div.online-chat span {
   font-weight: bold;
   font-size: 24px;
 }
+body div.online-chat span a.counts-comments {
+  color: red;
+  text-decoration: none;
+}
 body section.body-title {
   clear: both;
   margin-bottom: 50px;
@@ -153,10 +157,6 @@ body section.app span {
 }
 body div#disqus_thread {
   background-color: #555;
-}
-body div#disqus_thread span .counts-comments {
-  color: red;
-  text-decoration: none;
 }
 body #MusesRadioPlayer-HTML5-player-0 {
   margin: 0 auto 70px auto;
