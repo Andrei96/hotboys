@@ -124,6 +124,11 @@ body {
 
     div#disqus_thread {
         background-color: #555;
+
+        .counts-comments {
+            color: red;
+            text-decoration: none;
+        }
     }
 
     #MusesRadioPlayer-HTML5-player-0 {

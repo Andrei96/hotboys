@@ -154,6 +154,10 @@ body section.app span {
 body div#disqus_thread {
   background-color: #555;
 }
+body div#disqus_thread .counts-comments {
+  color: red;
+  text-decoration: none;
+}
 body #MusesRadioPlayer-HTML5-player-0 {
   margin: 0 auto 70px auto;
 }
