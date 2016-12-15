@@ -154,7 +154,7 @@ body section.app span {
 body div#disqus_thread {
   background-color: #555;
 }
-body div#disqus_thread .counts-comments {
+body div#disqus_thread span .counts-comments {
   color: red;
   text-decoration: none;
 }
